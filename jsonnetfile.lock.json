@@ -14,6 +14,16 @@
     {
       "source": {
         "git": {
+          "remote": "https://github.com/colega/orchestra.git",
+          "subdir": "jsonnet/lib/traefik"
+        }
+      },
+      "version": "5ead00803a8d6fcdb268e049c42d51adafac2280",
+      "sum": "w1KnPrpdEA8iz8Sk9sLo9xluVC9/6LJIcHC6OHcAFMc="
+    },
+    {
+      "source": {
+        "git": {
           "remote": "https://github.com/grafana/grafana.git",
           "subdir": "grafana-mixin"
         }
