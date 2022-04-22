@@ -8,8 +8,9 @@ local cluster_issuers = import 'cert-manager/cluster-issuers.libsonnet';
 local config = import 'config.libsonnet';
 local ingress = import 'traefik/ingress.libsonnet';
 local middleware = import 'traefik/middleware.libsonnet';
+local minio = import 'minio.libsonnet';
 
-prometheus_ksonnet + cert_manager + cluster_issuers + config {
+prometheus_ksonnet + cert_manager + cluster_issuers + minio + config {
   _config+:: {
     cluster_name: 'demo',
     namespace: 'default',
