@@ -1,2 +1,5 @@
 .idea
 environments/default/spec.json
+environments/default/config.libsonnet
+k3s.yaml
+grafana_cloud_api_key.txt
