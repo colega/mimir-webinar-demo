@@ -4,8 +4,8 @@
     {
       "source": {
         "git": {
-          "remote": "https://github.com/grafana/jsonnet-libs.git",
-          "subdir": "ksonnet-util"
+          "remote": "https://github.com/grafana/grafonnet-lib.git",
+          "subdir": "grafonnet"
         }
       },
       "version": "master"
@@ -14,7 +14,7 @@
       "source": {
         "git": {
           "remote": "https://github.com/grafana/jsonnet-libs.git",
-          "subdir": "prometheus-ksonnet"
+          "subdir": "grafana-builder"
         }
       },
       "version": "master"
@@ -22,12 +22,12 @@
     {
       "source": {
         "git": {
-          "remote": "https://github.com/jsonnet-libs/k8s-libsonnet.git",
-          "subdir": "1.21"
+          "remote": "https://github.com/kubernetes-monitoring/kubernetes-mixin.git",
+          "subdir": "lib/promgrafonnet"
         }
       },
-      "version": "main"
+      "version": "master"
     }
   ],
-  "legacyImports": true
+  "legacyImports": false
 }

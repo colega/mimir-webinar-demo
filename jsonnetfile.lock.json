@@ -4,6 +4,56 @@
     {
       "source": {
         "git": {
+          "remote": "https://github.com/grafana/grafana.git",
+          "subdir": "grafana-mixin"
+        }
+      },
+      "version": "1120f9e255760a3c104b57871fcb91801e934382",
+      "sum": "MkjR7zCgq6MUZgjDzop574tFKoTX2OBr7DTwm1K+Ofs="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/grafonnet-lib.git",
+          "subdir": "grafonnet"
+        }
+      },
+      "version": "6db00c292d3a1c71661fc875f90e0ec7caa538c2",
+      "sum": "gF8foHByYcB25jcUOBqP6jxk0OPifQMjPvKY0HaCk6w="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "alertmanager"
+        }
+      },
+      "version": "a291ecab46a858eb097ae5fab2f566815da0f17d",
+      "sum": "qCez+icm27SCa0Q8aZZ/axDm/Tr+vTzpVXUBtIiWkgI="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "grafana"
+        }
+      },
+      "version": "a291ecab46a858eb097ae5fab2f566815da0f17d",
+      "sum": "7rANfqY8ERvoABHbwoGsdGpUeHxxYCSVOcM4Eky4QtQ="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "grafana-builder"
+        }
+      },
+      "version": "a291ecab46a858eb097ae5fab2f566815da0f17d",
+      "sum": "0KkygBQd/AFzUvVzezE4qF/uDYgrwUXVpZfINBti0oc="
+    },
+    {
+      "source": {
+        "git": {
           "remote": "https://github.com/grafana/jsonnet-libs.git",
           "subdir": "ksonnet-util"
         }
@@ -14,12 +64,132 @@
     {
       "source": {
         "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "kube-state-metrics"
+        }
+      },
+      "version": "a291ecab46a858eb097ae5fab2f566815da0f17d",
+      "sum": "YG6LxAQOAkOgqFYA+U7KMB1KTw2AXbrHelBTo8kXWBA="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "nginx-directory"
+        }
+      },
+      "version": "a291ecab46a858eb097ae5fab2f566815da0f17d",
+      "sum": "KfO2SRsTE8Hx/ZP8GBDwRRm/jOHfzKMyRtdjQf2zYac="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "node-exporter"
+        }
+      },
+      "version": "a291ecab46a858eb097ae5fab2f566815da0f17d",
+      "sum": "NrtW3s48yfeG97d6ULNSb1AzbslsRcf1olUsdwNt3JM="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "oauth2-proxy"
+        }
+      },
+      "version": "a291ecab46a858eb097ae5fab2f566815da0f17d",
+      "sum": "e4coY8Ht3lDdqfcrjHyFG1pAWbHdoJs5+hXTW/nLOVo="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "prometheus"
+        }
+      },
+      "version": "a291ecab46a858eb097ae5fab2f566815da0f17d",
+      "sum": "m0X+B0CdfOZNufu+oZozv8oyoXrNSVtR52fI3DuqPQo="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "prometheus-ksonnet"
+        }
+      },
+      "version": "a291ecab46a858eb097ae5fab2f566815da0f17d",
+      "sum": "fQvRDXkWEi5F/sr9G52p1eVsuMiX3/fg/dSsCItLOog="
+    },
+    {
+      "source": {
+        "git": {
           "remote": "https://github.com/jsonnet-libs/k8s-libsonnet.git",
           "subdir": "1.21"
         }
       },
       "version": "1942ec15993b5a273569bb9a59d522b01522d0db",
       "sum": "MaBVPZrdqV2TFevI5H8Cd84ymYdaPP4EjRZCYNh6WHo="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/kubernetes-monitoring/kubernetes-mixin.git",
+          "subdir": ""
+        }
+      },
+      "version": "62ad10fe9ceb53c6b846871997abbfe8e0bd7cf5",
+      "sum": "6gD9F29f8T2a71n35Y61P7TBiF5NQuhk4JUwEafsA1E="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/kubernetes-monitoring/kubernetes-mixin.git",
+          "subdir": "lib/promgrafonnet"
+        }
+      },
+      "version": "62ad10fe9ceb53c6b846871997abbfe8e0bd7cf5",
+      "sum": "zv7hXGui6BfHzE9wPatHI/AGZa4A2WKo6pq7ZdqBsps="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/prometheus/alertmanager.git",
+          "subdir": "doc/alertmanager-mixin"
+        }
+      },
+      "version": "71d61c9c9149420209c973014e0d6c981b183611",
+      "sum": "iqF63VWQovIGBb7JI5oVVgMShz0dKptSzEVQQjsy+Jo="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/prometheus/node_exporter.git",
+          "subdir": "docs/node-mixin"
+        }
+      },
+      "version": "3d9ee5d9cc4545c7aaccc0f282f59478fe128ed1",
+      "sum": "fNanwWpnovE/ok6i7zlwd1mwOPbglp19edJdOLgTDnU="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/prometheus/prometheus.git",
+          "subdir": "documentation/prometheus-mixin"
+        }
+      },
+      "version": "9fcf0b3d46cc3cdff96e6e7baabfaf63d89a5a9d",
+      "sum": "APXOIP3B3dZ3Tyh7L2UhyWR8Vbf5+9adTLz/ya7n6uU="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/rfrail3/grafana-dashboards.git",
+          "subdir": ""
+        }
+      },
+      "version": "10f9abba16178bc1aa194d7474a0e53102768488",
+      "sum": "ev39xeqz2qTWu4FADh6W/xqpmfXFZEGXbdjqQbEz86o="
     }
   ],
   "legacyImports": false
