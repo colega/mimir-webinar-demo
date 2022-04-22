@@ -4,6 +4,16 @@
     {
       "source": {
         "git": {
+          "remote": "https://github.com/colega/orchestra.git",
+          "subdir": "jsonnet/lib/cert-manager"
+        }
+      },
+      "version": "674617e019e3ca7b6a95d1800e405806c638fa9f",
+      "sum": "XAJjrl9yB/rjk2avYbXUrkCEmGC77rCV3G1trosMa90="
+    },
+    {
+      "source": {
+        "git": {
           "remote": "https://github.com/grafana/grafana.git",
           "subdir": "grafana-mixin"
         }
@@ -120,6 +130,26 @@
       },
       "version": "a291ecab46a858eb097ae5fab2f566815da0f17d",
       "sum": "fQvRDXkWEi5F/sr9G52p1eVsuMiX3/fg/dSsCItLOog="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "tanka-util"
+        }
+      },
+      "version": "a291ecab46a858eb097ae5fab2f566815da0f17d",
+      "sum": "AGgjH6IJe/1qwNtxFIiG8V1uyOJZascEydQsNrfPQ4c="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/jsonnet-libs/docsonnet.git",
+          "subdir": "doc-util"
+        }
+      },
+      "version": "fc3f9bca2dff836b0e924a993bdf11bc51af78d4",
+      "sum": "JUBWG9ybm0TlY3uCWrNoQS00BcfPlCvuK9jPFU0NIj8="
     },
     {
       "source": {

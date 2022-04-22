@@ -2,8 +2,9 @@ local k = import 'github.com/grafana/jsonnet-libs/ksonnet-util/kausal.libsonnet'
       pvc = k.core.v1.persistentVolumeClaim;
 
 local prometheus_ksonnet = import 'prometheus-ksonnet/prometheus-ksonnet.libsonnet';
+local cert_manager = import 'cert-manager/cert-manager.libsonnet';
 
-prometheus_ksonnet {
+prometheus_ksonnet + cert_manager {
   _config+:: {
     cluster_name: 'demo',
     namespace: 'default',

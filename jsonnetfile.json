@@ -4,6 +4,15 @@
     {
       "source": {
         "git": {
+          "remote": "https://github.com/colega/orchestra.git",
+          "subdir": "jsonnet/lib/cert-manager"
+        }
+      },
+      "version": "master"
+    },
+    {
+      "source": {
+        "git": {
           "remote": "https://github.com/grafana/jsonnet-libs.git",
           "subdir": "ksonnet-util"
         }
@@ -15,6 +24,15 @@
         "git": {
           "remote": "https://github.com/grafana/jsonnet-libs.git",
           "subdir": "prometheus-ksonnet"
+        }
+      },
+      "version": "master"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "tanka-util"
         }
       },
       "version": "master"
