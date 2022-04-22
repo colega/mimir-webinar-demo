@@ -55,6 +55,26 @@
       "source": {
         "git": {
           "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "consul"
+        }
+      },
+      "version": "c26cc0815dfd32e84d1caba3d9bbb75f2b119937",
+      "sum": "Po3c1Ic96ngrJCtOazic/7OsLkoILOKZWXWyZWl+od8="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "etcd-operator"
+        }
+      },
+      "version": "c26cc0815dfd32e84d1caba3d9bbb75f2b119937",
+      "sum": "fQC1HY2iSTGfd4UfUE0nomf6NcRT+6xaVTDgwwRCrQc="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
           "subdir": "grafana"
         }
       },
@@ -75,6 +95,16 @@
       "source": {
         "git": {
           "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "jaeger-agent-mixin"
+        }
+      },
+      "version": "c26cc0815dfd32e84d1caba3d9bbb75f2b119937",
+      "sum": "DsdBoqgx5kE3zc6fMYnfiGjW2+9Mx2OXFieWm1oFHgY="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
           "subdir": "ksonnet-util"
         }
       },
@@ -90,6 +120,26 @@
       },
       "version": "a291ecab46a858eb097ae5fab2f566815da0f17d",
       "sum": "YG6LxAQOAkOgqFYA+U7KMB1KTw2AXbrHelBTo8kXWBA="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "memcached"
+        }
+      },
+      "version": "c26cc0815dfd32e84d1caba3d9bbb75f2b119937",
+      "sum": "8hXTN4QOMkpad75LESkdfRD4/Sl81fMqZcD0ZPx2SNc="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "mixin-utils"
+        }
+      },
+      "version": "c26cc0815dfd32e84d1caba3d9bbb75f2b119937",
+      "sum": "v6fuqqQp9rHZbsxN9o79QzOpUlwYZEJ84DxTCZMCYeU="
     },
     {
       "source": {
@@ -150,6 +200,26 @@
       },
       "version": "a291ecab46a858eb097ae5fab2f566815da0f17d",
       "sum": "AGgjH6IJe/1qwNtxFIiG8V1uyOJZascEydQsNrfPQ4c="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/mimir.git",
+          "subdir": "operations/mimir"
+        }
+      },
+      "version": "52992841ba0a9405ec88045935ce493c2269dd01",
+      "sum": "dIcmyCQlVXSdv7+qtPV0thur936b3Z4topy4mpqTbE0="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/mimir.git",
+          "subdir": "operations/mimir-mixin"
+        }
+      },
+      "version": "52992841ba0a9405ec88045935ce493c2269dd01",
+      "sum": "cbah1hPIbU66UROaAZBfuUpIUqwN7k5FmJkImFdK9Y8="
     },
     {
       "source": {
