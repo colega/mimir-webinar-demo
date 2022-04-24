@@ -74,6 +74,11 @@ prometheus_ksonnet + cert_manager + cluster_issuers + minio + mimir + config {
     ],
   },
 
+  grafanaDatasources+:: {
+    'mimir.yml': $.grafana_datasource_with_basicauth('Mimir', 'https://mimir-reads.%(domain)s/prometheus' % $._config, 'mimir', 'mimir', method='POST')
+                 + { jsonData+: { tlsSkipVerify: true } },
+  },
+
   mixins+:: {
     mimir: mimir_mixin,
   },
