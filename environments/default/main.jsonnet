@@ -60,6 +60,13 @@ prometheus_ksonnet + cert_manager + cluster_issuers + minio + mimir + config {
     prometheus_pvc+:: pvc.mixin.spec.resources.withRequests({ storage: '256Mi' }),
   },
 
+  prometheus_config+:: {
+    scrape_configs: [
+      config { relabel_configs+: [{ target_label: 'cluster', replacement: $._config.cluster_name }] }
+      for config in super.scrape_configs
+    ],
+  },
+
   mixins+:: {
     mimir: mimir_mixin,
   },
