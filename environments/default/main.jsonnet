@@ -65,6 +65,13 @@ prometheus_ksonnet + cert_manager + cluster_issuers + minio + mimir + config {
       config { relabel_configs+: [{ target_label: 'cluster', replacement: $._config.cluster_name }] }
       for config in super.scrape_configs
     ],
+    remote_write+: [
+      {
+        url: 'https://mimir-writes.%(domain)s/api/v1/push' % $._config,
+        basic_auth: { username: 'mimir', password: 'mimir' },
+        tls_config: { insecure_skip_verify: true },
+      },
+    ],
   },
 
   mixins+:: {
