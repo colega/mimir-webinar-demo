@@ -15,6 +15,26 @@
       "source": {
         "git": {
           "remote": "https://github.com/colega/orchestra.git",
+          "subdir": "jsonnet/lib/grafana-agent"
+        }
+      },
+      "version": "f56f6e8f8ec93985e0ed3d3981831d3d82932e4e",
+      "sum": "9lDOYRYk4AJA9oDNuWNCjPtl0IjuZODTuuIAq4oz/Og="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/colega/orchestra.git",
+          "subdir": "jsonnet/lib/k-util"
+        }
+      },
+      "version": "7dd85769ee66d1c102d91d56bc0b9b9b249934b3",
+      "sum": "uPAtUnWOVM5pfaij4ptZc9IXk/E+u2hyzqXEAYxzqLk="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/colega/orchestra.git",
           "subdir": "jsonnet/lib/traefik"
         }
       },
@@ -200,6 +220,16 @@
       },
       "version": "a291ecab46a858eb097ae5fab2f566815da0f17d",
       "sum": "AGgjH6IJe/1qwNtxFIiG8V1uyOJZascEydQsNrfPQ4c="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/loki.git",
+          "subdir": "production/ksonnet/promtail"
+        }
+      },
+      "version": "4a91fdcc7ffe8eb9ee08e13ce8909f778444a127",
+      "sum": "d7azenENzcvtlgkTeDFWk2tL1QXPSiYRhrGc1Klroa8="
     },
     {
       "source": {

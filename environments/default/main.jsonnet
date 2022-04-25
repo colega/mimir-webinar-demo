@@ -13,8 +13,9 @@ local middleware = import 'traefik/middleware.libsonnet';
 local minio = import 'minio.libsonnet';
 local mimir = import 'mimir/mimir.libsonnet';
 local mimir_mixin = import 'mimir-mixin/mixin.libsonnet';
+local grafana_cloud = import 'grafana_cloud.libsonnet';
 
-prometheus_ksonnet + cert_manager + cluster_issuers + minio + mimir + config {
+prometheus_ksonnet + cert_manager + cluster_issuers + minio + mimir + grafana_cloud + config {
   _config+:: {
     cluster_name: 'demo',
     namespace: 'default',
