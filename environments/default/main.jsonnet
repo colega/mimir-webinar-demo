@@ -3,8 +3,9 @@ local k = import 'github.com/grafana/jsonnet-libs/ksonnet-util/kausal.libsonnet'
 
 local prometheus_ksonnet = import 'prometheus-ksonnet/prometheus-ksonnet.libsonnet';
 local cert_manager = import 'cert-manager/cert-manager.libsonnet';
+local cluster_issuers = import 'cert-manager/cluster-issuers.libsonnet';
 
-prometheus_ksonnet + cert_manager {
+prometheus_ksonnet + cert_manager + cluster_issuers {
   _config+:: {
     cluster_name: 'demo',
     namespace: 'default',
